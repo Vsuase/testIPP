@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url('IPPmodel Images/bg.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        } 
+
+        .para{
+            text-decoration: none;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTeZQqWLSsbi8_Eu15RLxCBtAr3sEs-m91M6h8KpvlKGNBql99d" alt="Catimg1"></div>
+            <div class="item" style="--position: 2"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS9zTaJdHC-7B9PrN44mVF0mCaPfSGdJiponJWavSyOnpx98FDQ" alt="Catimg2"></div>
+            <div class="item" style="--position: 3"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRDuYnZe8zsm9-Ri2DPSmXdEzUGvkJETaCTXGgkqxC7mk5-eq_C" alt="Catimg3"></div>
+            <div class="item" style="--position: 4"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTVjDJ9LY15hBrRGFv2nlojs6_iCHytvAi89Mb8URgh8k0rhJSi" alt="Catimg4"></div>
+            <div class="item" style="--position: 5"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQw7AqR_XLCxt3IdhUatu1hvvf63QmctZqr38vz4ZXGogzYowmQ" alt="Catimg5"></div>
+            <div class="item" style="--position: 6"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSBF3MmPRHQIgGbl7cr9X3h1xdasp9eSAS_g2qsi8JehrOekOvF" alt="Catimg6"></div>
+            <div class="item" style="--position: 7"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSi9TPdJRO3_jREBpmXmFwJG78fWq2Qxfs4klErku4p-9kFw57v" alt="Catimg7"></div>
+            <div class="item" style="--position: 8"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTg6wuq0S4NfSpQ2wRlmFCNiK9H-Kp8OtTGcFFLjtNLabaFf44s" alt="Catimg8"></div>
+            <div class="item" style="--position: 9"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ5CC3MjO0Ei8kvAt7iXFdiq1AuTlZHfmInCU2eb94EZPqwTcF0" alt="Catimg9"></div>
+            <div class="item" style="--position: 10"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS6rRrjQhJxBEMNikl1DtPqo7Y_P0-DOM6x1rANY7wySoT4GQ7l" alt="Catimg10"></div>
+        </div>
+        <div class="content">
+            <h1 data-content="CSS ONLY">
+                CAT ONLY
+            </h1>
+            <div class="author">
+                <h2>HAVEN</h2>
+                <p><b>For CATS</b></p>
+                <p class="para">
+                    Combine artistic designs and Your love for Cats! 
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
